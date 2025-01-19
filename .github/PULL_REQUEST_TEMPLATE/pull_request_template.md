@@ -1,12 +1,3 @@
----
-name: Pull Request template
-about: Template to describe code changes
-title: ''
-labels: ''
-assignees: ''
-
----
-
 # <Pull request title>
 - <Pull request description>
 
