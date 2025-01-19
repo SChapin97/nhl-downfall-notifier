@@ -1,4 +1,6 @@
-requests
-black
-isort
-flake8
+requests==2.32.3
+black==24.10.0
+isort==5.13.2
+flake8==7.1.1
+pytest==8.3.4
+pre-commit==4.0.1

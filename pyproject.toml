@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.github
+  | \.idea
+  | venv
+)/
+'''
+
+[tool.flake8]
+max-line-length = 120
+count = true
+
+[tool.isort]
+#profile = "hug"
+src_paths = ["src"]
