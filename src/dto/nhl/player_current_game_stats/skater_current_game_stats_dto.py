@@ -1,7 +1,6 @@
 from datetime import datetime
 
-from src.dto.nhl.player_current_game_stats.player_current_game_stats_dto import \
-    PlayerCurrentGameStatsDTO
+from src.dto.nhl.player_current_game_stats.player_current_game_stats_dto import PlayerCurrentGameStatsDTO
 
 
 class SkaterCurrentGameStatsDTO(PlayerCurrentGameStatsDTO):
