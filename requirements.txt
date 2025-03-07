@@ -5,3 +5,7 @@ flake8==7.1.1
 pytest==8.3.4
 pre-commit==4.0.1
 pytest==8.3.4
+sqlalchemy==2.0.37
+flake8-pyproject==1.2.3
+tox==4.24.1
+nhl-api-py==2.18.0

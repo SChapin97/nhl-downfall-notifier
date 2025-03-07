@@ -7,13 +7,12 @@ exclude = '''
   | \.github
   | \.idea
   | venv
+  | database_scripts
 )/
 '''
 
-[tool.flake8]
-max-line-length = 120
-count = true
+# flake8 does not and will not integrate with pyproject.toml, reference .flake8 for configuration
 
 [tool.isort]
-#profile = "hug"
-src_paths = ["src"]
+profile = "black"
+line_length = 120
